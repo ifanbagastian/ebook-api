@@ -26,3 +26,4 @@ Route::delete('books/{id}','BookController@destroy');
 */
 
 Route::resource('books','BookController');
+Route::resource('authors','AuthorController');
